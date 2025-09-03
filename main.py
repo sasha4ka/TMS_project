@@ -4,7 +4,7 @@ import websockets
 import dotenv
 import os
 
-from connection import connection_handler
+from listener import connection_handler
 
 
 dotenv.load_dotenv()
